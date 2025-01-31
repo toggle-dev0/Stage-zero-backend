@@ -9,8 +9,8 @@ app.use(express.json());
 app.get("/api/response", (req, res) => {
   const data = {
     email: "munachienabulele2505@gmail.com",
-    currentDateTime: new Date().toISOString(),
-    url: "https://github.com/toggle-dev0/Stage-zero-backend",
+    current_datetime: time.toISOString(),
+    github_url: "<https://github.com/toggle-dev0/Stage-zero-backend>",
   };
   res.status(200).json(data);
 });
